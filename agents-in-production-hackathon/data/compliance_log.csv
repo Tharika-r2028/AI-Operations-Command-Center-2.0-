@@ -1,0 +1,97 @@
+timestamp,actor,action,status,details
+2025-10-16T15:33:37,Gmail,fetch_emails,ok,Fetched 3 emails
+2025-10-16T15:33:38,Analyzer,detect_anomalies,ok,1 anomalies found
+2025-10-16T15:33:38,Trello,create_card,ok,[Invoice Mismatch] ACME Co — Invoice #9843 — Amount mismatch
+2025-10-16T15:33:39,Slack,post_message,ok,channel=#finance-alerts
+2025-10-16T15:33:39,Sheets,append_row,ok,"row={'issue': 'invoice_mismatch', 'supplier': 'ACME Co', 'subject': 'Invoice #9843 — Amount mismatch', 'total': 42000, 'expected': 40000}"
+2025-10-16T15:33:40,Gmail,send_digest,ok,to=ops@company.com
+2025-10-16T15:47:20,Gmail,fetch_emails,ok,Fetched 3 emails
+2025-10-16T15:47:21,Analyzer,detect_anomalies,ok,1 anomalies found
+2025-10-16T15:47:21,Trello,create_card,ok,[Invoice Mismatch] ACME Co — Invoice #9843 — Amount mismatch
+2025-10-16T15:47:22,Slack,post_message,ok,channel=#finance-alerts
+2025-10-16T15:47:22,Sheets,append_row,ok,"row={'issue': 'invoice_mismatch', 'supplier': 'ACME Co', 'subject': 'Invoice #9843 — Amount mismatch', 'total': 42000, 'expected': 40000}"
+2025-10-16T15:47:24,Gmail,send_digest,ok,to=ops@company.com
+2025-10-16T16:04:45,Gmail,fetch_emails,ok,Fetched 3 emails
+2025-10-16T16:04:45,Analyzer,detect_anomalies,ok,1 anomalies found
+2025-10-16T16:04:46,Trello,create_card,ok,[Invoice Mismatch] ACME Co — Invoice #9843 — Amount mismatch
+2025-10-16T16:04:46,Slack,post_message,ok,channel=#finance-alerts
+2025-10-16T16:04:47,Sheets,append_row,ok,"row={'issue': 'invoice_mismatch', 'supplier': 'ACME Co', 'subject': 'Invoice #9843 — Amount mismatch', 'total': 42000, 'expected': 40000}"
+2025-10-16T16:04:49,Gmail,send_digest,ok,to=ops@company.com
+2025-10-16T18:46:27,Gmail,fetch_emails,ok,Fetched 3 emails
+2025-10-16T18:46:27,Analyzer,detect_anomalies,ok,1 anomalies found
+2025-10-16T18:46:28,Trello,create_card,ok,[Invoice Mismatch] ACME Co — Invoice #9843 — Amount mismatch
+2025-10-16T18:46:28,Slack,post_message,ok,channel=#finance-alerts
+2025-10-16T18:46:29,Sheets,append_row,ok,"row={'issue': 'invoice_mismatch', 'supplier': 'ACME Co', 'subject': 'Invoice #9843 — Amount mismatch', 'total': 42000, 'expected': 40000}"
+2025-10-16T18:46:41,Gmail,send_digest,ok,to=ops@company.com
+2025-10-16T19:02:09,Gmail,fetch_emails,ok,Fetched 3 emails
+2025-10-16T19:02:09,Analyzer,detect_anomalies,ok,1 anomalies found
+2025-10-16T19:02:10,Trello,create_card,skipped,Missing TRELLO_* env vars
+2025-10-16T19:02:12,Slack,post_message,error,404
+2025-10-16T19:02:12,Sheets,append_row,ok,"row={'issue': 'invoice_mismatch', 'supplier': 'ACME Co', 'subject': 'Invoice #9843 — Amount mismatch', 'total': 42000, 'expected': 40000}"
+2025-10-16T19:02:15,Gmail,send_digest,ok,to=ops@company.com
+2025-10-16T20:31:07,Gmail,fetch_emails,ok,Fetched 3 emails
+2025-10-16T20:31:08,Analyzer,detect_anomalies,ok,1 anomalies found
+2025-10-16T20:31:08,Trello,create_card,skipped,Missing TRELLO_* env vars
+2025-10-16T20:31:11,Slack,post_message,ok,webhook->#finance-alerts
+2025-10-16T20:31:12,Sheets,append_row,ok,"row={'issue': 'invoice_mismatch', 'supplier': 'ACME Co', 'subject': 'Invoice #9843 — Amount mismatch', 'total': 42000, 'expected': 40000}"
+2025-10-16T20:31:14,Gmail,send_digest,ok,to=ops@company.com
+2025-10-16T21:22:19,Gmail,fetch_emails,ok,Fetched 3 emails
+2025-10-16T21:22:19,Analyzer,detect_anomalies,ok,1 anomalies found
+2025-10-16T21:22:22,Trello,create_card,ok,68f114b426d25ed78bd3f4c5
+2025-10-16T21:22:23,Slack,post_message,ok,webhook->#finance-alerts
+2025-10-16T21:22:24,Sheets,append_row,ok,"row={'issue': 'invoice_mismatch', 'supplier': 'ACME Co', 'subject': 'Invoice #9843 — Amount mismatch', 'total': 42000, 'expected': 40000}"
+2025-10-16T21:22:25,Gmail,send_digest,ok,to=ops@company.com
+2025-10-16T21:37:08,Gmail,fetch_emails,ok,Fetched 3 emails
+2025-10-16T21:37:08,Analyzer,detect_anomalies,ok,1 anomalies found
+2025-10-16T21:37:10,Trello,create_card,ok,68f1182da134a63634cb4812
+2025-10-16T21:37:12,Slack,post_message,ok,webhook->#finance-alerts
+2025-10-16T21:37:12,Sheets,append_row,ok,"row={'issue': 'invoice_mismatch', 'supplier': 'ACME Co', 'subject': 'Invoice #9843 — Amount mismatch', 'total': 42000, 'expected': 40000}"
+2025-10-16T21:37:13,Gmail,send_digest,ok,to=ops@company.com
+2025-10-16T22:26:18,Gmail,fetch_emails,ok,Fetched 3 emails
+2025-10-16T22:26:19,Analyzer,detect_anomalies,ok,1 anomalies found
+2025-10-16T22:26:22,Trello,create_card,ok,68f123b433af21f38b9d9744
+2025-10-16T22:26:23,Slack,post_message,ok,webhook->#finance-alerts
+2025-10-16T22:26:24,Sheets,append_row,ok,"row={'issue': 'invoice_mismatch', 'supplier': 'ACME Co', 'subject': 'Invoice #9843 — Amount mismatch', 'total': 42000, 'expected': 40000}"
+2025-10-16T22:26:26,Gmail,send_digest,ok,to=ops@company.com
+2025-10-17T06:52:40,Gmail,fetch_emails,ok,Fetched 3 emails
+2025-10-17T06:52:41,Analyzer,detect_anomalies,ok,1 anomalies found
+2025-10-17T06:52:44,Trello,create_card,ok,68f19a614b1b3980b6a916d6
+2025-10-17T06:52:46,Slack,post_message,ok,webhook->#finance-alerts
+2025-10-17T06:52:47,Sheets,append_row,ok,"row={'issue': 'invoice_mismatch', 'supplier': 'ACME Co', 'subject': 'Invoice #9843 — Amount mismatch', 'total': 42000, 'expected': 40000}"
+2025-10-17T06:53:11,Gmail,send_digest,ok,to=ops@company.com
+2025-10-17T07:14:19,Gmail,fetch_emails,ok,Fetched 3 emails
+2025-10-17T07:14:19,Analyzer,detect_anomalies,ok,1 anomalies found
+2025-10-17T07:14:22,Trello,create_card,ok,68f19f74c68e444475e34fee
+2025-10-17T07:14:24,Slack,post_message,ok,webhook->#finance-alerts
+2025-10-17T07:14:25,Sheets,append_row,ok,"row={'issue': 'invoice_mismatch', 'supplier': 'ACME Co', 'subject': 'Invoice #9843 — Amount mismatch', 'total': 42000, 'expected': 40000}"
+2025-10-17T07:14:27,Gmail,send_digest,ok,to=ops@company.com
+2025-10-17T09:39:11,Gmail,fetch_emails,ok,Fetched 3 emails
+2025-10-17T09:39:11,Analyzer,detect_anomalies,ok,1 anomalies found
+2025-10-17T09:39:13,Trello,create_card,ok,[Invoice Mismatch] ACME Co — Invoice #9843 — Amount mismatch
+2025-10-17T09:39:15,Slack,post_message,ok,channel=#finance-alerts
+2025-10-17T09:39:15,Sheets,append_row,ok,"row={'issue': 'invoice_mismatch', 'supplier': 'ACME Co', 'subject': 'Invoice #9843 — Amount mismatch', 'total': 42000, 'expected': 40000}"
+2025-10-17T09:39:25,Gmail,send_digest,ok,to=ops@company.com
+2025-10-17T09:45:21,Gmail,fetch_emails,ok,Fetched 3 emails
+2025-10-17T09:45:21,Analyzer,detect_anomalies,ok,1 anomalies found
+2025-10-17T09:45:24,Trello,create_card,ok,[Invoice Mismatch] ACME Co — Invoice #9843 — Amount mismatch
+2025-10-17T09:45:26,Slack,post_message,ok,channel=#finance-alerts
+2025-10-17T09:45:27,Sheets,append_row,ok,"row={'issue': 'invoice_mismatch', 'supplier': 'ACME Co', 'subject': 'Invoice #9843 — Amount mismatch', 'total': 42000, 'expected': 40000}"
+2025-10-17T09:45:28,Gmail,send_digest,ok,to=ops@company.com
+2025-10-17T12:57:24,Gmail,fetch_emails,ok,Fetched 3 emails
+2025-10-17T12:57:24,Analyzer,detect_anomalies,ok,1 anomalies found
+2025-10-17T12:57:26,Trello,create_card,ok,[Invoice Mismatch] ACME Co — Invoice #9843 — Amount mismatch
+2025-10-17T12:57:27,Slack,post_message,ok,channel=#finance-alerts
+2025-10-17T12:57:28,Sheets,append_row,ok,"row={'issue': 'invoice_mismatch', 'supplier': 'ACME Co', 'subject': 'Invoice #9843 — Amount mismatch', 'total': 42000, 'expected': 40000}"
+2025-10-17T12:57:37,Gmail,send_digest,ok,to=ops@company.com
+2025-10-17T13:02:38,Gmail,fetch_emails,ok,Fetched 3 emails
+2025-10-17T13:02:38,Analyzer,detect_anomalies,ok,1 anomalies found
+2025-10-17T13:02:40,Trello,create_card,ok,[Invoice Mismatch] ACME Co — Invoice #9843 — Amount mismatch
+2025-10-17T13:02:41,Slack,post_message,ok,channel=#finance-alerts
+2025-10-17T13:02:41,Sheets,append_row,ok,"row={'issue': 'invoice_mismatch', 'supplier': 'ACME Co', 'subject': 'Invoice #9843 — Amount mismatch', 'total': 42000, 'expected': 40000}"
+2025-10-17T13:02:43,Gmail,send_digest,ok,to=ops@company.com
+2025-10-17T13:18:53,Gmail,fetch_emails,ok,Fetched 3 emails
+2025-10-17T13:18:53,Analyzer,detect_anomalies,ok,1 anomalies found
+2025-10-17T13:18:55,Trello,create_card,ok,[Invoice Mismatch] ACME Co — Invoice #9843 — Amount mismatch
+2025-10-17T13:18:56,Slack,post_message,ok,channel=#finance-alerts
+2025-10-17T13:18:57,Sheets,append_row,ok,"row={'issue': 'invoice_mismatch', 'supplier': 'ACME Co', 'subject': 'Invoice #9843 — Amount mismatch', 'total': 42000, 'expected': 40000}"
+2025-10-17T13:18:58,Gmail,send_digest,ok,to=ops@company.com
